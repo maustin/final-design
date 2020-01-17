@@ -1,0 +1,49 @@
+NAV SECTION
+This will remain throughout the site, excepting maybe the 'processing' page.
+Section should contain a logo, Home button (maybe this is just clicking on the logo), Login/Log Out button, Register/Profile button, cart button, browse button.
+
+HOME
+Displays maybe larger logo and "Deal of the Day". (Should "light"/"dark" theme be a switch here, or something in the browse section?)
+
+LOGIN
+Either modal or page. Email and password inputs, submit button. Also a forgot password link.
+
+REGISTER
+Username, email, password 1, password 2, homeworld inputs, submit button.
+
+FORGOT PASSWORD
+* Very low priority. Email and submit button. (Working in outgoing email is a pretty large undertaking.)
+
+PROFILE
+Display user's name and email. Maybe include a past purchases section?
+Additional buttons to update user's name, email, password, or homeworld.
+
+BROWSE
+Displays all ships. Has a Filter section to narrow down results. Also Sort section.
+Clicking on a ship brings up ship details section. Each ship item will display a short summary
+of the item: Image, name, class, new/used, Empire/Rebel/neutral, price, and possible 'special' tag.
+Filter contains:
+By name, by model, by class, cost sliders (min, max), new/used, Empire/Rebellion/neutral,
+atmosphere capable. (maybe that's more than enough)
+Sort by:
+Name, cost, cargo capacity, hyperdrive rating (if including the rating, should maybe show on the item summary)
+
+DETAILS
+Ship details page will contain large image and full specs:
+Name, model, class, new/used, price, manufacturers, length (m), atmosphere capable, atmosphere speed, crew, passenders, cargo capacity, max resupply length (days, weeks, months, years), MGLT (megalights), hyperdrive rating.
+There will be a Add to Cart button and possibly a Quantity selector. (Selector should only show as many ships are in stock, up to like 10.)
+
+CART
+The cart displays the items currently in the cart. These items will either be a single line with New/Used status, name, price, quantity. (Yes for quantity?) Also 'Remove' button.
+There will be a subtotal section and a Checkout button.
+
+CHECKOUT
+Checkout page will show price breakdown section (ships + tax + delivery fee?).
+There will be a payment entry section. I think a couple 'fun' payment methods, like: Imperial Credits Card, Rebelbucks, Darkcoin, Jedimo, and something silly like... ?
+There should be form validation for all fields. This will prob be simple feedback below each field.
+Finally, a complete purchase button. Pressing the complete button, either go to a "processing" page or show a modal over the checkout page. On processing complete, go to purchase complete page.
+
+PURCHASE COMPLETE
+Cart is emptied, items quantities removed from DB. Show a thanks message.
+
+
